@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+javac src/main/java/ClassFinder.java
+java -cp src/main/java ClassFinder "$@"
+rm src/main/java/ClassFinder.class
